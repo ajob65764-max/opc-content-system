@@ -1,9 +1,9 @@
 ---
 name: opc-content-system
-description: Build and run a lightweight One Person Company content workspace using persistent personal context, platform-specific templates, reusable outputs, and anti-AI writing rules. Use when the user wants to initialize or personalize an OPC content system, create publish-ready content for Xiaohongshu, Douyin, WeChat Official Account, WeChat Channels, or Zhihu, adapt one source into multiple platform versions, save finished content into an Outputs structure, or turn repeated content patterns into reusable templates.
+description: 搭建并运行轻量级一人公司内容工作区，通过长期个人背景、平台专属模板、可复用交付物和反 AI 味规则持续生产内容。适用于初始化或个性化 OPC 内容系统，为小红书、抖音、公众号、视频号或知乎制作可直接发布的成品，将一份素材改写成多个平台版本，把内容保存到 Outputs 结构，或将反复验证的内容结构沉淀为模板。
 ---
 
-# OPC Content System
+# OPC 内容工作系统
 
 把用户的长期背景、真实素材和平台规则组合成可直接发布、可保存、可复用的内容成品。
 
