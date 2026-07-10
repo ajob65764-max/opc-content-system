@@ -1,4 +1,4 @@
 interface:
   display_name: "OPC 内容工作系统"
   short_description: "用个人背景和平台模板持续生产、复用并沉淀多平台内容成品"
-  default_prompt: "Use $opc-content-system to turn my real material into a publish-ready platform-specific content asset."
+  default_prompt: "使用 $opc-content-system，把我的真实素材制作成适合目标平台、可以直接发布的内容成品。"
