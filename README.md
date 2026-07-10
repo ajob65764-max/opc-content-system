@@ -1,17 +1,41 @@
-# OPC Content System
+# OPC 内容工作系统
 
-A lightweight Codex skill for building and running a One Person Company multi-platform content system.
+这是一个轻量级 Codex Skill，用于搭建和运行一人公司的多平台内容生产系统。
 
-## Features
+## 主要功能
 
-- Persistent personal and business context
-- Xiaohongshu, Douyin, WeChat Official Account, WeChat Channels, and Zhihu templates
-- One-source multi-platform adaptation
-- Publish-ready outputs with versioned file naming
-- Reusable starter workspace and anti-AI writing rules
+- 长期保存个人背景和业务信息
+- 支持小红书、抖音、公众号、视频号和知乎
+- 将一份真实素材改写成多个平台版本
+- 生成可以直接发布的完整成品
+- 按日期、平台、选题和版本保存内容
+- 提供可复用的初始工作区和反 AI 味写作规则
 
-## Use
+## 使用方法
 
-Invoke the skill as `$opc-content-system`, then provide the target platform, audience, real source material, and success criteria.
+调用技能：
 
-The reusable starter workspace is under `assets/starter-workspace/`.
+```text
+$opc-content-system
+```
+
+然后告诉 Codex：
+
+- 发布平台
+- 目标读者
+- 真实素材
+- 核心观点
+- 成功标准
+- 必须保留和明确不要的内容
+
+例如：
+
+```text
+请使用 $opc-content-system，把下面的真实经历制作成一篇可以直接发布的小红书图文。
+```
+
+可复用的初始工作区位于：
+
+```text
+assets/starter-workspace/
+```
